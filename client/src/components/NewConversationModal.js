@@ -29,7 +29,7 @@ const NewConversationModal = ({closeModal}) => {
 
     return (
     <>
-    <Modal.Header closeButton>Create Conveersation</Modal.Header>
+    <Modal.Header closeButton>Create Conversation</Modal.Header>
     <Modal.Body>
       <Form onSubmit={handleSubmit}>
        {contacts.map(contact => (
